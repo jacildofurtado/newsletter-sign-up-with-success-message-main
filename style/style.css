@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background-color: hsl(234, 29%, 20%);
+}
+
+.card{
+    background-color: white;
+    width: 80%;
+    max-width: 1140px;
+    height: 70%;
+    max-height: 670px;
+    border-radius: 32px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
