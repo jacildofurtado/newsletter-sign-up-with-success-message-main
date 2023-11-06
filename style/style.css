@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&family=Open+Sans:wght@300;400;700&family=Roboto:wght@400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
 }
 
 html, body{
@@ -42,11 +45,13 @@ body{
 
 .login h1{
     font-size: 48px;
+    font-weight: 700;
     color: hsl(234, 29%, 20%);
 }
 
 .login p{
     font-size: 16px;
+    font-weight: 400;
     margin-top: 20px;
 }
 
@@ -67,7 +72,43 @@ body{
 }
 
 .form{
+    margin-top: 40px;
+}
+
+.form label{
+    display: block;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.form input[type=email]{
+    margin-top: 8px;
+    width: 90%;
+    height: 44px;
+    padding: 20px;
+    border: 1px solid hsl(232, 11%, 70%);
+    border-radius: 5px;
+    color: black;
+}
+
+.form input[type=email]:hover{
+    border-color: black;
+}
+
+.form input[type=submit]{
     margin-top: 20px;
+    width: 90%;
+    height: 44px;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.form input[type=submit]:hover{
+    background-color: hsl(4, 100%, 67%);
+    box-shadow:  2px 15px 55px -15px hsl(4, 100%, 67%);
 }
 
 .img{
